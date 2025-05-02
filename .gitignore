@@ -1,0 +1,39 @@
+# Ignorar carpetas de compilación
+bin/
+obj/
+dist/
+build/
+
+# Ignorar dependencias
+node_modules/
+packages/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+*.swp
+
+# Ignorar archivos de configuración local
+.env
+*.user
+*.suo
+*.vscode/
+
+# Ignorar salidas de test
+coverage/
+test-results/
+
+# Ignorar archivos de backup
+*.bak
+*.old
+
+# Ignorar bases de datos locales
+*.sqlite
+*.db
